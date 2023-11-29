@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 nom = "7.1.3"
+md5 = { version = "*", features = [] }
 
 [[bin]]
 name = "day1"
@@ -19,3 +20,6 @@ name = "day3"
 
 [[bin]]
 name = "day4"
+
+[[bin]]
+name = "day5"
